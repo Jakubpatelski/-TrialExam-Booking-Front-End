@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Manage Member</title>
+    <link rel="stylesheet" href="/css/global.css">
+    <link rel="stylesheet" href="/css/addMember.css">
+    <link rel="stylesheet" href="/css/manageMember.css">
+
+    <script src="/js/manageMember.js" type="module"></script>
+
+</head>
+<body>
+    <header class="header">
+        <a href="members.html"><h1>Manage Member</h1></a>
+    </header>
+    <div class="container">
+    <form id="add-member" >
+        <h3>First Name</h3>
+        <input type="text" id="fname" required>
+        <h3>Last Name</h3>
+        <input type="text" id="lname" required>
+        <h3>Street</h3>
+        <input type="text" id="street" required>
+        <h3>City</h3>
+        <input type="text" id="city" required>
+        <h3>Zip</h3>
+        <input type="text" id="zip" required>
+        <h3>Approved</h3>
+        <input type="text" id="approved" required>
+        <h3>Ranking</h3>
+        <input type="text" id="ranking" required>
+        <input type="submit" value="Edit" class="btn-sub" id="submit">
+    </form>
+    <button  class="delete" id="delete">Delete</button>
+    </div>
+
+</body>
+</html>

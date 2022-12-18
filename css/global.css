@@ -1,0 +1,73 @@
+.header {
+    text-align: center;
+    text-transform: uppercase;
+    padding: 50px;
+    background-color: lightblue;
+    color: black;
+    border-bottom: 6px solid mistyrose;
+    font-size: 20px;
+    margin-bottom: 5%;
+
+}
+body {
+    background-color: azure;
+}
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    color: inherit;
+
+}
+
+
+
+/*table*/
+
+table{
+    border-collapse: collapse;
+    margin: auto;
+    font-size: 25px;
+    table-layout: fixed;
+    width: 90%;
+}
+
+
+table th{
+    padding: 5px;
+    background-color: #f4f4f4;
+    border:  thin solid #d4d4d4;
+}
+
+table td{
+    padding: 5px;
+    border:  thin solid #d4d4d4;
+    text-align: center;
+}
+
+/*btn*/
+.btn{
+    background-color: #52CC7A;
+    font-size: 30px;
+    border-radius: 10px;
+    padding: 10px;
+}
+tr:hover td {
+    background-color: lightgreen;
+
+}
+
+
+.btn-edit{
+    background-color: lightblue;
+    font-size: 30px;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+.delete{
+    margin-top: 4%;
+    background-color: red;
+    border-radius: 10px;
+    padding: 10px;
+}

@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Manage Booking</title>
+    <link rel="stylesheet" href="/css/global.css">
+    <link rel="stylesheet" href="/css/addBooking.css">
+    <script src="/js/manageBooking.js" type="module"></script>
+
+
+
+</head>
+<body>
+<header class="header">
+    <a href="bookings.html"><h1>Manage booking</h1></a>
+</header>
+<div class="container">
+<form id="edit-booking" >
+    <h3>Choose Date</h3>
+    <input type="date" id="date" required>
+    <h3>Choose Car</h3>
+ <input type="text" id="car" readonly>
+    <h3>Choose Member</h3>
+    <input type="text" id="member">
+    <input type="submit" value="Submit" class="btn-sub" id="submit">
+</form>
+<button  class="delete" id="delete">Delete</button>
+</div>
+</body>
+</html>

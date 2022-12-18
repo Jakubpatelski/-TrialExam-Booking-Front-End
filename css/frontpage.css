@@ -1,0 +1,32 @@
+.container{
+    margin-left: 10%;
+    margin-right: 10%;
+    background-color: mistyrose;
+    /*padding:  100px;*/
+    display: flex;
+    gap: 50px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+    height: 500px;
+
+}
+
+
+
+.btn:hover{
+    font-size: 38px;
+    /*transform: scale();*/
+    transform: scale(1.1);
+    /*color: seagreen;*/
+    background-color: azure;
+}
+
+.btn {
+    padding: 50px;
+    min-width: 300px;
+    font-size: 30px;
+    background-color: lightblue;
+    border-radius: 20px;
+    transition: 1s;
+}
