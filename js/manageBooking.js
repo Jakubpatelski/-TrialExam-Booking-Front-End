@@ -62,17 +62,6 @@ async function editBooking(){
 
         }),
     })
-        // .then(response => response.json())
-        // .then((response) =>{
-        //     if (response.status === 400 || response.status === 500 ) {
-        //         alert("Booking not added error " + response.status);
-        //         console.log(response.status);
-        //
-        //     } else   {
-        //         alert("Booking successfully added");
-        //         window.location.href = "bookings.html";
-        //     }
-        // })
 
 
 

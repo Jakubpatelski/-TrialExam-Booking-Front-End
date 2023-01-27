@@ -11,26 +11,10 @@ const carSelect = document.getElementById("car")
 const memberSelect = document.getElementById("member")
 
 
-let car = {"id" : ""}
-let member = {"id" : ""}
-
-
-carSelect.addEventListener("change", (event) => {
-    car.id = event.target.value;
-    console.log(car)
-});
-
-memberSelect.addEventListener("change", (event) => {
-    member.id = event.target.value;
-    console.log(member)
-});
-
-
 
 async function getCars() {
     const response =  await fetch(apiUrlCar)
     const data = await response.json()
-
 
     console.log(data)
     data.forEach(car => {
@@ -68,8 +52,13 @@ function addBooking() {
         },
         body:JSON.stringify({
             date: date.value,
-            car:car,
-            member: member
+            // car:car,
+            car:{
+                id: carSelect.value
+            },
+            member: {
+                id: memberSelect.value
+            }
         }),
     })
         .then(response => response.json())
